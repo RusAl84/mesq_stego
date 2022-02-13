@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Ёж мессенджер
+          Мессенджер для скрытой передачи даных на основе стеганографии
         </q-toolbar-title>
 
         <div> v1.0</div>
@@ -54,9 +54,19 @@ const linksList = [
     icon: 'school',
     link: '/'
   },
+    {
+    title: 'Стеганография (Зашифровать)',
+    icon: 'code',
+    link: '/stego'
+  },
+      {
+    title: 'Стеганография (Декодировать)',
+    icon: 'code',
+    link: '/stego2'
+  },
   {
     title: 'Авторизация',
-    icon: 'code',
+    icon: 'login',
     link: '/Auth'
   },
   {
